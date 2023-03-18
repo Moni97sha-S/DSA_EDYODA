@@ -1,5 +1,5 @@
-let a = [1, 10, 61, 81, 83, 100, 200];
-let b = [60, 70, 80, 90];
+let a = [10, 20, 30];
+let b = [15, 25, 35];
 
 let i = 0;
 let j = 0;
@@ -11,7 +11,7 @@ let n = b.length;
 let newArr = [];
 newArr.length = m + n;
 
-while (i < m && j < n) {
+while (i < 3 && j < 3) {
   if (a[i] <= b[j]) {
     newArr[k] = a[i];
     i++;
@@ -36,7 +36,6 @@ while (j < n) {
   j++;
   k++;
 }
-
 
 console.log(a);
 console.log(b);
