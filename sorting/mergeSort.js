@@ -14,13 +14,8 @@ function merge(arr, l, m, r) {
     R[j] = arr[m + 1 + j];
   }
 
-  // Initial index of first subarray
   let i = 0;
-
-  // Initial index of second subarray
   let j = 0;
-
-  // Initial index of merged subarray
   let k = l;
 
   while (i < n1 && j < n2) {
