@@ -50,7 +50,7 @@ function mergeSort(arr, left, right) {
   if (left >= right) {
     return;
   }
-  // find mid
+  // find mid element
   let mid = left + Math.floor((right - left) / 2);
 
   // recursion call
@@ -58,6 +58,12 @@ function mergeSort(arr, left, right) {
   mergeSort(arr, mid + 1, right);
   merge(arr, left, mid, right);
 }
+
+
+
+
+
+
 
 let arr = [12, 11, 13, 5, 6, 7];
 let size = arr.length;
