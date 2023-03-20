@@ -26,5 +26,45 @@ function sumAll(node) {
 
   return node.data + leftSum + rightSum;
 }
+function sumAll(node) {
+  if (node == null) {
+    return 0;
+  }
+
+  let leftSum = sumAll(node.left);
+  let rightSum = sumAll(node.right);
+
+  return node.data + leftSum + rightSum;
+}
+function sumAll(node) {
+  if (node == null) {
+    return 0;
+  }
+
+  let leftSum = sumAll(node.left);
+  let rightSum = sumAll(node.right);
+
+  return node.data + leftSum + rightSum;
+}
+function sumAll(node) {
+  if (node == null) {
+    return 0;
+  }
+
+  let leftSum = sumAll(node.left);
+  let rightSum = sumAll(node.right);
+
+  return node.data + leftSum + rightSum;
+}
+function sumAll(node) {
+  if (node == null) {
+    return 0;
+  }
+
+  let leftSum = sumAll(node.left);
+  let rightSum = sumAll(node.right);
+
+  return node.data + leftSum + rightSum;
+}
 
 console.log(sumAll(root));
